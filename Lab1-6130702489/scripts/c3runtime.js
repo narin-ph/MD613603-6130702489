@@ -3267,7 +3267,7 @@ const map=new WeakMap;self.IBulletBehaviorInstance=class IBulletBehaviorInstance
 			const f1 = p._GetNode(1).GetBoundMethod();
 			return () => f0(f1(0, 12));
 		},
-		() => 50,
+		() => 100,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => and("Your Score : ", v0.GetValue());
